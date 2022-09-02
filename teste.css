@@ -30,7 +30,7 @@ main{
     opacity: 0;
     }
     to{
-        opacity: 0.7;
+        opacity: 0.5;
 
     }
 }
@@ -91,5 +91,6 @@ to{
     width:190px;
     height:60px;
     border:white solid 2px;
+    font-size: 1.1em;
 }
 }
