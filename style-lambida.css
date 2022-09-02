@@ -2,10 +2,12 @@
     margin: 0px;
     padding: 0px;
     list-style: none;
+    box-sizing: content-box;
 
 }
+
 header{
-    height: 180px;
+    height: 110px;
     background-color: black;
 }
 .logo-opp{
@@ -13,25 +15,27 @@ header{
 
 }
 .logo{
-    width: 100px;
-    height: 150px;
+    width: 60px;
+    height: 110px;
     position: absolute;
     left: 40px;
     cursor: pointer;
-    animation: logo ease 1s infinite alternate;
+    animation: logo 1s infinite alternate;
    /* animation-name: logo;
     animation-duration: 3s;
     animation-iteration-count: infinite;*/
 }
 @keyframes logo{
     from{
-        width:90px ;
-        height:140px ;
+        width:70px ;
+        height:100px ;
     }
     to{
-        width:110px ;
-        height:160px ;
+        width:65px ;
+        height:90px ;
     }
+}
+.logo:hover{
 }
 
 .lista-de-links{
@@ -45,17 +49,18 @@ header{
     margin-left: 30px;
     font-size: 20px;
     opacity: 0.7;
-    box-sizing: content-box;
     transition: all 1s;
+
 }
 .itens-links:hover{
-    font-size: 21px;
+    font-size: 20px;
     opacity: 1;
     letter-spacing: 2px;
     transition: all 2s;
     margin-left: 33px;
     margin-right: 23px;
 }
+
 .itens-links::first-letter{
     text-transform: uppercase;
 }
@@ -65,5 +70,5 @@ header{
 }
 .itens-links a:hover{
     text-decoration: underline;
- / 
+ 
 }
