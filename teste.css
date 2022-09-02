@@ -14,13 +14,33 @@ main{
     display: flex;
     align-items: center;
 }
+.logo-hiv-img{
+    opacity: 0.5;
+    animation:logo-hiv 2s linear;
+    transition: all 3s;
+    cursor: grab;
+
+}
+.logo-hiv-img:hover{
+    opacity: 1;
+    transition: all 3s;
+}
+@keyframes logo-hiv{
+    from{
+    opacity: 0;
+    }
+    to{
+        opacity: 0.7;
+
+    }
+}
 .display-form{
     width: 400px;
     padding: 4px 2px 4px 10px;
     margin: 20px auto;
     height: 30px;
     color: black;
-    animation: lab 3s ;
+    animation: lab 2s linear ;
 }
 
 @keyframes lab{
