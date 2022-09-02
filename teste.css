@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border-style: none;
+    color: white;
+}
+body{
+background-color: black;
+color: black;
+
+}
+main{
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+}
+.display-form{
+    width: 250px;
+    padding: 4px 2px 4px 3px;
+    margin: 20px auto;
+}
+.descri{
+    display: block;
+    text-align: left;
+
+
+}
+.info{
+    margin: 20px auto;
+}
+.botao{
+    background-color: black;
+    border: white solid 2px;
+    padding: 8px;
+    width: 160px;
+    height: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+.botao:hover{
+    animation: botao 1s  infinite alternate;
+   
+}
+@keyframes botao{
+from{
+    background-color: black;
+}
+to{
+    color:black; 
+    background-color:white ;
+    width:140px;
+    height:60px;
+    border:white solid 2px;
+}
+}

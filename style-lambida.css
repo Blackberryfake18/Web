@@ -14,6 +14,17 @@ header{
     padding-top: 5px;
 
 }
+body{
+    background-image: linear-gradient( );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center 0%;
+}
+main{
+    margin: 0px auto;
+    width: 900px;
+    color: black;
+}
 .logo{
     width: 60px;
     height: 110px;
@@ -41,7 +52,7 @@ header{
 .lista-de-links{
     position: absolute;
     right: 40px;
-    top:150px;
+    top:87px;
    /* border: white solid 2px; ajustar*/
 }
 .itens-links{
